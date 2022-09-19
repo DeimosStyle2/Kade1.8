@@ -97,6 +97,22 @@ class Character extends FlxSprite
 				barColor = 0xFFaf66ce;
 
 				playAnim('idle');
+                        case 'agoti':
+				// DAD ANIMATION LOADING CODE
+				tex = Paths.getSparrowAtlas('AGOTI', 'shared', true);
+				frames = tex;
+				animation.addByPrefix('idle', 'Agoti_Idle', 24, false);
+				animation.addByPrefix('singUP', 'Agoti_Up', 24, false);
+				animation.addByPrefix('singRIGHT', 'Agoti_Right', 24, false);
+				animation.addByPrefix('singDOWN', 'Agoti_Down', 24, false);
+				animation.addByPrefix('singLEFT', 'Agoti_Left', 24, false);
+				animation.addByIndices('idleLoop', "Dad idle dance", [11, 12], "", 12, true);
+
+				loadOffsetFile(curCharacter);
+				barColor = 0xFFaf66ce;
+
+				playAnim('idle');
+
 			case 'spooky':
 				tex = Paths.getSparrowAtlas('spooky_kids_assets', 'shared', true);
 				frames = tex;
@@ -111,6 +127,7 @@ class Character extends FlxSprite
 				barColor = 0xFFd57e00;
 
 				playAnim('danceRight');
+
 			case 'mom':
 				tex = Paths.getSparrowAtlas('Mom_Assets', 'shared', true);
 				frames = tex;
