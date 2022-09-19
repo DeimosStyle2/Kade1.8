@@ -112,6 +112,21 @@ class Character extends FlxSprite
 				barColor = 0xFFaf66ce;
 
 				playAnim('idle');
+                        case 'tabi':
+				// DAD ANIMATION LOADING CODE
+				tex = Paths.getSparrowAtlas('TABI', 'shared', true);
+				frames = tex;
+				animation.addByPrefix('idle', 'Tabi Idle', 24, false);
+				animation.addByPrefix('singUP', 'Tabi Up', 24, false);
+				animation.addByPrefix('singRIGHT', 'Tabi Right', 24, false);
+				animation.addByPrefix('singDOWN', 'Tabi Down', 24, false);
+				animation.addByPrefix('singLEFT', 'Tabi Left', 24, false);
+				animation.addByIndices('idleLoop', "Dad idle dance", [11, 12], "", 12, true);
+
+				loadOffsetFile(curCharacter);
+				barColor = 0xFFaf66ce;
+
+				playAnim('idle');
 
 			case 'spooky':
 				tex = Paths.getSparrowAtlas('spooky_kids_assets', 'shared', true);
