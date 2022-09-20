@@ -1,5 +1,5 @@
 tutorial:gf:0
-bopeebo:dad:1
+my-battle:dad:1
 fresh:dad:1
 dadbattle:dad:1
 spookeez:spooky:2
@@ -17,4 +17,4 @@ winter-horrorland:monster-christmas:5
 senpai:senpai:6
 roses:senpai:6
 thorns:spirit:6
-my-battle:tabi:7
+
