@@ -1,0 +1,35 @@
+{
+  "name": "TABI THE GOAT",
+  "asset": "characters/TABI",
+  "iconColor": "#5D6A85",
+  "startingAnim": "idle",
+  "holdLength": 6.1,
+  "camPos": [-300, -60],
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Tabi Idle",
+      "offsets": [633, 59]
+    },
+    {
+      "name": "singUP",
+      "prefix": "Tabi Up",
+      "offsets": [680, 70]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Tabi Left",
+      "offsets": [783, 58]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Tabi Right",
+      "offsets": [640, 60]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Tabi Down",
+      "offsets": [750, 60]
+    }
+  ]
+}
