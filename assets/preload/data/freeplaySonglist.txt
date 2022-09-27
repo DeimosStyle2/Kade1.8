@@ -1,5 +1,5 @@
 tutorial:gf:0
-my-battle:dad:1
+my-battle:tabi:1
 fresh:dad:1
 dadbattle:dad:1
 spookeez:spooky:2
